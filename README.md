@@ -1,3 +1,13 @@
+## Amendments of the nottinhill/mongoose-currency fork
+
+* Instead of USD and US regional conversion, the plugin should now work for Euro and German Regional settings
+* Enhanced with Grunt Task runner
+* Proper Grunt Test targets
+* CoffeeScript Compilation enabled
+* Now with Mongoose 4.x dependency
+
+The remainder of this file is the original readme.
+
 ## What it does
 
 * Saves a String as an integer (by stripping non digits and multiplying by 100) to prevent rounding errors when performing calculations (See gotchas for details)
