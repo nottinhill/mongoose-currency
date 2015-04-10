@@ -1,33 +1,40 @@
 {
-  "name": "mongoose-currency",
-  "version": "0.0.4",
-  "description": "Adds schema type \"currency\" to mongoose. Great for converting user input.",
+  "name": "mongoose-euro",
+  "version": "0.0.5",
+  "description": "Adds schema type \"currency\" to mongoose. Great for Euro.",
   "main": "index.js",
+  "directories": {
+    "test":"test"
+  },
   "scripts": {
     "test": "mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/catalystmediastudios/mongoose-currency.git"
+    "url": "https://github.com/nottinhill/mongoose-euro.git"
   },
   "keywords": [
     "mongoose",
     "currency",
-    "money"
+    "money",
+    "euro"
   ],
   "author": {
-    "name": "Paul Smith",
-    "email": "catalystmediastudios@gmail.com"
+    "name": "Stephan Kristyn",
+    "email": "nottinhill@ecomail.at"
   },
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "80f9b6fa07591917779b470a3a92c6fe3aadd9fe",
   "devDependencies": {
-    "mocha": "1.9.x",
-    "should": "*",
-    "mongoose": "3.x"
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-mocha-test": "^0.12.7",
+    "jit-grunt": "^0.9.1",
+    "mocha": "^2.2.4",
+    "mongoose": "4.x",
+    "should": "*"
   },
   "peerDependencies": {
-    "mongoose": "3.x"
+    "mongoose": "4.x"
   }
 }
